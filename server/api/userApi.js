@@ -2,7 +2,7 @@
  * @作者: Edwin Yeung
  * @Date: 2021-05-08 22:45:55
  * @修改人: Edwin Yeung
- * @LastEditTime: 2021-06-04 17:22:46
+ * @LastEditTime: 2021-06-07 13:49:03
  * @描述: 
  */
 //参考出处  https://blog.csdn.net/weixin_42003850/article/details/100511566   on 2020/02/18
@@ -19,7 +19,7 @@ const $sql = require('../sqlMap')
 // 加密和 token
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
-const SECRET = 'jwing_13712796608'
+const SECRET = 'XXXXX_xxxxxxxxxxx'
 
 
 // 连接数据库
