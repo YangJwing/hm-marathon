@@ -1,0 +1,208 @@
+@import "./constant.less";
+.homeList {
+  padding: 0 0.24rem 50px;
+  position: relative;
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0.88rem;
+    display: flex;
+    z-index: 999;
+    background: @mainColor;
+    padding: 0.14rem 0.24rem;
+    align-items: center;
+    .header-input {
+      .iconfont {
+        font-size: 24px;
+      }
+      margin: 0 0.2rem;
+      height: 100%;
+      display: flex;
+      flex: 1;
+      padding: 0.18rem;
+      align-items: center;
+      border-radius: 0.3rem;
+      line-height: 0.6rem;
+      font-size: 0.24rem;
+      color: #fff;
+      background: rgba(255, 255, 255, 0.3);
+    }
+    .header-right {
+      color: #fff;
+    }
+  }
+  .van-swipe {
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    padding-bottom: 37.11%;
+    border-radius: 0.2rem;
+    top: 1.86rem;
+    .van-swipe-item {
+      img {
+        width: 100%;
+        height: 2.6rem;
+      }
+    }
+  }
+  .van-tabs {
+    z-index: 99;
+    /deep/ .van-tabs__wrap {
+      height: 0.78rem;
+      position: fixed;
+      top: 0.88rem;
+      left: 0;
+      right: 0;
+      background: #fff;
+      z-index: 999;
+      box-shadow: 0px 0px 5px #c1c1c1;
+      .van-tabs__nav {
+        padding-left: 0;
+        padding-right: 0;
+        .van-tab {
+          padding: 0;
+          font-size: 0.3rem;
+          color: @fontColor;
+        }
+        .van-tab--active {
+          color: @mainColor;
+        }
+        .van-tabs__line {
+          background-color: @mainColor;
+          height: 0.04rem;
+          border-radius: 0;
+        }
+      }
+    }
+    /deep/ .van-tabs__content {
+      background: #fff;
+      margin-top: 1.86rem;
+      .van-tab__pane-wrapper {
+        // overflow-x: hidden;
+      }
+      .difference {
+        margin-top: -1.62rem;
+      }
+      .assembly {
+        .van-image {
+          border-radius: 0.2rem 0.2rem 0 0;
+          overflow: hidden;
+        }
+        .asseTitle {
+          font-size: 0.35rem;
+          line-height: 0.7rem;
+          letter-spacing: 0.05rem;
+        }
+        .asseDescri {
+          font-size: 0.32rem;
+          color: #898989;
+          line-height: 0.46rem;
+          letter-spacing: 0.04rem;
+        }
+        .asseDate {
+          font-size: 0.26rem;
+          line-height: 0.46rem;
+          color: #c4c4c4;
+          text-align: right;
+        }
+        .van-row {
+          padding: 0.38rem 0 0;
+          &:first-child {
+            padding: 0;
+          }
+        }
+      }
+      .briefing {
+        .van-row {
+          padding: 0.2rem 0 0 0;
+          .van-col--11 {
+            .van-image {
+              border-radius: 0.2rem 0 0 0.2rem;
+              overflow: hidden;
+              /deep/ .cover {
+                background: none;
+                // background: #000 url(../assets/workTrends.png) center no-repeat;
+                // background-size: 1.29rem 1.29rem;
+                background: #000;
+                font-size: 0.32rem;
+                line-height: 0.7rem;
+                color: #fff;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+          .van-col--13 {
+            padding: 0 0.2rem;
+            div{
+              font-size: 0.24rem;
+              line-height: 0.38rem;
+              padding: .14rem 0;
+              border-bottom: 1px solid #edebeb;
+              &:last-child {
+                border-bottom: none;
+              }
+              .brieTit {
+              
+              }
+            }
+          }
+        }
+      }
+    }
+    .van-image {
+      width: 100%;
+      /deep/ .cover {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        background: #000 url(../../assets/player.png) center no-repeat;
+        background-size: 0.72rem 0.72rem;
+        opacity: 0.4;
+      }
+    }
+  }
+  .van-row {
+    padding: 0.3rem 0.02rem 0.3rem 0;
+  }
+  .title {
+    color: #797979;
+    font-size: 0.26rem;
+    margin-bottom: 0.08rem;
+    padding-top: .04rem;
+  }
+  .description {
+    font-size: 0.28rem !important;
+    
+    line-height: 0.38rem;
+    margin-bottom: 0.12rem;
+  }
+  .default{
+    color: #414141 !important;
+  }
+  .read{
+    color: #969696 !important;
+  }
+  .news{
+    color: rgb(59, 59, 253) !important;
+  }
+  .readnews{
+    color: rgb(124, 124, 252) !important;
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    span {
+      color: #8c8c8c;
+      font-size: 0.18rem;
+      &.iconfont {
+        margin-right: 0.06rem;
+      }
+    }
+  }
+}

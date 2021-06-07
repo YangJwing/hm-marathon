@@ -1,0 +1,81 @@
+.van-nav-bar {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.van-nav-bar /deep/ .van-icon {
+  color: #fff;
+  background: #7c7c7c;
+  border-radius: 50%;
+  padding: 6px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+.video-player-box /deep/ .video-js .vjs-big-play-button {
+  top: 50%;
+  left: 50%;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 50%;
+  margin-left: -0.9em;
+  margin-top: -0.9em;
+  line-height: 1.7em;
+}
+.detail {
+  padding: 0 0.24rem 0.24rem;
+  margin-top: 4.84rem;
+}
+.detail .title {
+  font-size: 0.32rem;
+  color: #333333;
+  margin: 0.3rem 0;
+}
+.detail .discript {
+  font-size: 0.28rem;
+  color: #999999;
+  line-height: 0.36rem;
+}
+.detail .like {
+  margin-top: 0.3rem;
+}
+.detail .like .left {
+  color: #d53c3e;
+  font-size: 0.32rem;
+  font-weight: 500;
+}
+.detail .like .rightDef {
+  color: #999;
+}
+.detail .like .rightSele {
+  color: #d53c3e;
+}
+.detail .conferenceIntroduction {
+  margin: 0.64rem 0;
+}
+.detail .conferenceIntroduction /deep/ .cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgba(83, 83, 83, 0.4);
+  text-align: center;
+  color: #fff;
+  font-size: 0.3rem;
+  line-height: 0.4rem;
+}
+.detail .conferenceIntroduction /deep/ p:first-child {
+  margin-top: 0.7rem;
+}
+.backTop {
+  position: fixed;
+  right: 0.3rem;
+  bottom: 0.5rem;
+  background: #fbe1e1;
+  border-radius: 50%;
+  padding: 0.05rem;
+  box-shadow: 0px 3px 2px #cacaca;
+}
+.backTop .iconfont {
+  font-size: 36px;
+}

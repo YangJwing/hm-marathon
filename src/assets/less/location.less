@@ -1,0 +1,60 @@
+@import "./constant.less";
+.location{
+  position: relative;
+  height: 100%;
+  background: #f2f2f2;
+  .iconfont{color: #fff;}
+.city-search {
+  position: fixed;
+  top: 0.84rem;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.search-content {
+  overflow: hidden;
+  position: fixed;
+  z-index: 1000;
+  top: 1.56rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #eeeeee;
+  .search-item {
+    padding: 0.1rem .2rem;
+    line-height: 0.62rem;
+    background: #fff;
+    color: #666;
+  }
+}
+.van-collapse {
+  // margin-top: 1.56rem;
+  margin-top: .92rem;
+  /deep/ .van-collapse-item__content {
+    background: #f2f2f2;
+  }
+  .van-row {
+    flex-wrap: wrap;
+    .van-col {
+      margin: 0.05rem 0;
+    }
+  }
+}
+.recentVisit{
+  padding: 12px 16px;
+  background: #f2f2f2;
+  .title{
+    font-size: .28rem;
+    margin-bottom: .2rem;
+  }
+}
+.van-index-bar {
+  overflow: hidden;
+  /deep/ .van-index-anchor--sticky {
+    top: 1.56rem;
+  }
+  /deep/ .van-index-bar__sidebar {
+    top: 7.58rem;
+  }
+}
+}

@@ -1,0 +1,63 @@
+.hairline--bottom {
+  border-bottom: 1px #eee solid;
+}
+.location {
+  position: relative;
+  height: 100%;
+  background: #f2f2f2;
+}
+.location .iconfont {
+  color: #fff;
+}
+.location .city-search {
+  position: fixed;
+  top: 0.84rem;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.location .search-content {
+  overflow: hidden;
+  position: fixed;
+  z-index: 1000;
+  top: 1.56rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #eeeeee;
+}
+.location .search-content .search-item {
+  padding: 0.1rem 0.2rem;
+  line-height: 0.62rem;
+  background: #fff;
+  color: #666;
+}
+.location .van-collapse {
+  margin-top: 0.92rem;
+}
+.location .van-collapse /deep/ .van-collapse-item__content {
+  background: #f2f2f2;
+}
+.location .van-collapse .van-row {
+  flex-wrap: wrap;
+}
+.location .van-collapse .van-row .van-col {
+  margin: 0.05rem 0;
+}
+.location .recentVisit {
+  padding: 12px 16px;
+  background: #f2f2f2;
+}
+.location .recentVisit .title {
+  font-size: 0.28rem;
+  margin-bottom: 0.2rem;
+}
+.location .van-index-bar {
+  overflow: hidden;
+}
+.location .van-index-bar /deep/ .van-index-anchor--sticky {
+  top: 1.56rem;
+}
+.location .van-index-bar /deep/ .van-index-bar__sidebar {
+  top: 7.58rem;
+}

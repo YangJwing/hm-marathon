@@ -1,0 +1,90 @@
+.hairline--bottom {
+  border-bottom: 1px #eee solid;
+}
+.homeList {
+  height: 100%;
+  padding-bottom: 50px;
+  overflow-y: auto;
+}
+.homeList .van-nav-bar--fixed {
+  z-index: 99;
+}
+.homeList .container {
+  padding: 0 0.24rem;
+  margin-top: 0.88rem;
+}
+.homeList .container .bannerWrapper {
+  margin-bottom: 0.4rem;
+}
+.homeList .container .bannerWrapper .van-swipe {
+  border-radius: 0.2rem;
+}
+.homeList .container .bannerWrapper .van-swipe .van-swipe-item img {
+  width: 100%;
+  height: 2.6rem;
+}
+.homeList .container .videoClumn .title {
+  display: flex;
+  padding: 0.16rem 0;
+  justify-content: space-between;
+}
+.homeList .container .videoClumn .title p {
+  font-size: 0.34rem;
+  border-left: 0.06rem solid #d53c3e;
+  padding-left: 0.1rem;
+}
+.homeList .container .videoClumn .title a {
+  font-size: 0.24rem;
+  color: #a0a0a0;
+}
+.homeList .container .videoClumn .guess .van-col {
+  width: 3rem;
+}
+.homeList .container .videoClumn .Boutique .van-col,
+.homeList .container .videoClumn .guess .van-col {
+  margin-bottom: 0.24rem;
+}
+.homeList .container .videoClumn .Boutique .van-col .van-image,
+.homeList .container .videoClumn .guess .van-col .van-image {
+  width: 100%;
+}
+.homeList .container .videoClumn .Boutique .van-col .van-image /deep/ .cover,
+.homeList .container .videoClumn .guess .van-col .van-image /deep/ .cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: #000 url(../../assets/player.png) center no-repeat;
+  background-size: 0.72rem 0.72rem;
+  opacity: 0.4;
+}
+.homeList .container .videoClumn .Boutique .van-col .van-image /deep/ .cover1,
+.homeList .container .videoClumn .guess .van-col .van-image /deep/ .cover1 {
+  font-size: 0.22rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: #000;
+  background-size: 0.72rem 0.72rem;
+  opacity: 0.4;
+  text-align: right;
+  color: #fff;
+  padding-right: 0.16rem;
+  padding-top: 0.2rem;
+}
+.homeList .container .videoClumn .Boutique .van-col .ClumnTitle,
+.homeList .container .videoClumn .guess .van-col .ClumnTitle {
+  margin: 0.2rem 0 0.1rem;
+}
+.homeList .container .videoClumn .Boutique .van-col .description,
+.homeList .container .videoClumn .guess .van-col .description {
+  color: #a0a0a0;
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+  margin-top: 0.1rem;
+}
+.homeList .container .videoClumn .Boutique .van-col .bottom,
+.homeList .container .videoClumn .guess .van-col .bottom {
+  color: #d53c3e;
+}

@@ -1,0 +1,79 @@
+.assesssynopsis {
+  background: #f0f0f0;
+  height: 100%;
+  position: relative;
+}
+.assesssynopsis .container {
+  padding: 0.88rem 0.24rem 0;
+}
+.assesssynopsis .container .card {
+  margin-top: 0.24rem;
+  width: 100%;
+  background: #fff;
+  border-radius: 0.1rem;
+  padding: 0.24rem;
+}
+.assesssynopsis .container .card .button {
+  padding: 0.3rem 0;
+  text-align: center;
+}
+.assesssynopsis .container .card .button .van-button {
+  padding: 0 0.6rem;
+}
+.assesssynopsis .container .card .line {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.assesssynopsis .container .card .line .iconfont {
+  margin-right: 0.2rem;
+  margin-top: 0.18rem;
+}
+.assesssynopsis .container .card .line p {
+  line-height: 0.4rem;
+  font-size: 0.28rem;
+  padding: 0.14rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.assesssynopsis .container .card .line p i {
+  color: #d43d3d;
+}
+.assesssynopsis .container .card .title {
+  font-size: 0.3rem;
+  color: #d43d3d;
+  font-weight: 700;
+}
+.assesssynopsis .container .card .title .iconfont {
+  font-size: 0.3rem;
+  margin-right: 0.1rem;
+}
+.assesssynopsis .container .card .content {
+  padding: 0.2rem 0 0 0.4rem;
+}
+.assesssynopsis .container .card .content p {
+  font-size: 0.26rem;
+  color: #2177e2;
+  text-decoration: underline;
+  line-height: 0.44rem;
+  margin: 0.04rem 0;
+}
+.assesssynopsis .pf {
+  margin-top: 0.6rem;
+  text-align: center;
+}
+.assesssynopsis .pf p {
+  color: #9a9a9a;
+  font-size: 0.24rem;
+  margin-bottom: 0.24rem;
+}
+.assesssynopsis .pf .van-button {
+  width: 70%;
+}
+.assesssynopsis .pf .van-button /deep/ .van-button__text {
+  display: flex;
+  align-items: center;
+}
+.assesssynopsis .pf .van-button .iconfont {
+  font-size: 0.3rem;
+  margin-right: 0.1rem;
+}

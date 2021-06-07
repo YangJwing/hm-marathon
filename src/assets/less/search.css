@@ -1,0 +1,83 @@
+.searchTop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.searchColumn {
+  background: #d53c3e;
+  padding: 0 0.16rem 0 0.24rem;
+}
+.searchColumn .van-search {
+  padding: 5px 0px;
+}
+.searchColumn .van-search /deep/ .van-cell {
+  padding: 3px 8px 3px 0;
+}
+.searchColumn .van-search /deep/ .van-icon {
+  color: #d53c3e;
+}
+.searchColumn .van-search /deep/ .van-search__action {
+  color: #fff;
+}
+.searchColumn .van-search__action:active {
+  background: none;
+}
+.searchColumn .location {
+  line-height: 44px;
+  color: #fff;
+  margin-right: 0.2rem;
+}
+.searchRes {
+  position: absolute;
+  top: 1.88rem;
+  z-index: 99;
+  width: 100%;
+}
+.searchRes .noSearch .noSearchTit {
+  line-height: 0.9rem;
+  background: #f5f5f5;
+  padding: 0 0.24rem;
+}
+.searchRes .noSearch .noSearchBd {
+  padding: 0 0.24rem;
+  margin-bottom: 0.24rem;
+}
+.searchRes .noSearch .noSearchBd .van-tag {
+  margin: 0.24rem 0 0 0;
+}
+.searchRes .noSearch .noSearchBd .clearHist {
+  color: #646464;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+.searchRes .hasSearch {
+  padding: 0 0.24rem;
+}
+.searchRes .hasSearch .van-row {
+  padding: 0.3rem 0;
+}
+.searchRes .hasSearch .title {
+  color: #797979;
+  font-size: 0.26rem;
+  margin-bottom: 0.16rem;
+  padding-top: 0.04rem;
+}
+.searchRes .hasSearch .description {
+  font-size: 0.28rem;
+  color: #414141;
+  line-height: 0.38rem;
+  margin-bottom: 0.08rem;
+}
+.searchRes .hasSearch .bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+.searchRes .hasSearch .bottom span {
+  color: #8c8c8c;
+  font-size: 0.18rem;
+}
+.searchRes .hasSearch .bottom span.iconfont {
+  margin-right: 0.06rem;
+}

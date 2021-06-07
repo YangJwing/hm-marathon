@@ -1,0 +1,193 @@
+.hairline--bottom {
+  border-bottom: 1px #eee solid;
+}
+.homeList {
+  padding: 0 0.24rem 50px;
+  position: relative;
+}
+.homeList .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0.88rem;
+  display: flex;
+  z-index: 999;
+  background: #d53c3e;
+  padding: 0.14rem 0.24rem;
+  align-items: center;
+}
+.homeList .header .header-input {
+  margin: 0 0.2rem;
+  height: 100%;
+  display: flex;
+  flex: 1;
+  padding: 0.18rem;
+  align-items: center;
+  border-radius: 0.3rem;
+  line-height: 0.6rem;
+  font-size: 0.24rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.3);
+}
+.homeList .header .header-input .iconfont {
+  font-size: 24px;
+}
+.homeList .header .header-right {
+  color: #fff;
+}
+.homeList .van-swipe {
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  padding-bottom: 37.11%;
+  border-radius: 0.2rem;
+  top: 1.86rem;
+}
+.homeList .van-swipe .van-swipe-item img {
+  width: 100%;
+  height: 2.6rem;
+}
+.homeList .van-tabs {
+  z-index: 99;
+}
+.homeList .van-tabs /deep/ .van-tabs__wrap {
+  height: 0.78rem;
+  position: fixed;
+  top: 0.88rem;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 999;
+  box-shadow: 0px 0px 5px #c1c1c1;
+}
+.homeList .van-tabs /deep/ .van-tabs__wrap .van-tabs__nav {
+  padding-left: 0;
+  padding-right: 0;
+}
+.homeList .van-tabs /deep/ .van-tabs__wrap .van-tabs__nav .van-tab {
+  padding: 0;
+  font-size: 0.3rem;
+  color: #282828;
+}
+.homeList .van-tabs /deep/ .van-tabs__wrap .van-tabs__nav .van-tab--active {
+  color: #d53c3e;
+}
+.homeList .van-tabs /deep/ .van-tabs__wrap .van-tabs__nav .van-tabs__line {
+  background-color: #d53c3e;
+  height: 0.04rem;
+  border-radius: 0;
+}
+.homeList .van-tabs /deep/ .van-tabs__content {
+  background: #fff;
+  margin-top: 1.86rem;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .difference {
+  margin-top: -1.62rem;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .assembly .van-image {
+  border-radius: 0.2rem 0.2rem 0 0;
+  overflow: hidden;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .assembly .asseTitle {
+  font-size: 0.35rem;
+  line-height: 0.7rem;
+  letter-spacing: 0.05rem;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .assembly .asseDescri {
+  font-size: 0.32rem;
+  color: #898989;
+  line-height: 0.46rem;
+  letter-spacing: 0.04rem;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .assembly .asseDate {
+  font-size: 0.26rem;
+  line-height: 0.46rem;
+  color: #c4c4c4;
+  text-align: right;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .assembly .van-row {
+  padding: 0.38rem 0 0;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .assembly .van-row:first-child {
+  padding: 0;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .briefing .van-row {
+  padding: 0.2rem 0 0 0;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .briefing .van-row .van-col--11 .van-image {
+  border-radius: 0.2rem 0 0 0.2rem;
+  overflow: hidden;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .briefing .van-row .van-col--11 .van-image /deep/ .cover {
+  background: none;
+  background: #000;
+  font-size: 0.32rem;
+  line-height: 0.7rem;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .briefing .van-row .van-col--13 {
+  padding: 0 0.2rem;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .briefing .van-row .van-col--13 div {
+  font-size: 0.24rem;
+  line-height: 0.38rem;
+  padding: 0.14rem 0;
+  border-bottom: 1px solid #edebeb;
+}
+.homeList .van-tabs /deep/ .van-tabs__content .briefing .van-row .van-col--13 div:last-child {
+  border-bottom: none;
+}
+.homeList .van-tabs .van-image {
+  width: 100%;
+}
+.homeList .van-tabs .van-image /deep/ .cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: #000 url(../../assets/player.png) center no-repeat;
+  background-size: 0.72rem 0.72rem;
+  opacity: 0.4;
+}
+.homeList .van-row {
+  padding: 0.3rem 0.02rem 0.3rem 0;
+}
+.homeList .title {
+  color: #797979;
+  font-size: 0.26rem;
+  margin-bottom: 0.08rem;
+  padding-top: 0.04rem;
+}
+.homeList .description {
+  font-size: 0.28rem !important;
+  line-height: 0.38rem;
+  margin-bottom: 0.12rem;
+}
+.homeList .default {
+  color: #414141 !important;
+}
+.homeList .read {
+  color: #969696 !important;
+}
+.homeList .news {
+  color: #3b3bfd !important;
+}
+.homeList .readnews {
+  color: #7c7cfc !important;
+}
+.homeList .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.homeList .bottom span {
+  color: #8c8c8c;
+  font-size: 0.18rem;
+}
+.homeList .bottom span.iconfont {
+  margin-right: 0.06rem;
+}
